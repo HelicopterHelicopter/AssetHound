@@ -2,8 +2,12 @@
   "name": "AssetHound",
   "displayName": "AssetHound",
   "description": "Detects broken CDN and asset URLs in your code and shows warnings for invalid links",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "OmniaInc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HelicopterHelicopter/AssetHound.git"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -29,8 +33,5 @@
     "@typescript-eslint/parser": "^6.13.0",
     "eslint": "^8.55.0",
     "typescript": "^5.3.0"
-  },
-  "dependencies": {
-    "axios": "^1.6.0"
   }
 }
