@@ -2,8 +2,9 @@
   "name": "AssetHound",
   "displayName": "AssetHound",
   "description": "Detects broken CDN and asset URLs in your code and shows warnings for invalid links",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "OmniaInc",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/HelicopterHelicopter/AssetHound.git"

@@ -12,6 +12,7 @@ A VS Code extension that automatically detects and validates CDN URLs and asset 
 ## Detected URL Types
 
 ### CDN URLs
+
 - CloudFront (`*.cloudfront.net`)
 - Cloudflare
 - Akamai
@@ -22,7 +23,9 @@ A VS Code extension that automatically detects and validates CDN URLs and asset 
 - Any URL containing `cdn.` or `.cdn.`
 
 ### Asset Files
+
 URLs ending with common asset extensions:
+
 - **Images**: `.jpg`, `.jpeg`, `.png`, `.gif`, `.svg`, `.webp`, `.ico`, `.bmp`, `.tiff`, `.avif`
 - **Video**: `.mp4`, `.webm`, `.avi`, `.mov`, `.mkv`
 - **Audio**: `.mp3`, `.wav`, `.ogg`, `.flac`, `.aac`
@@ -34,6 +37,7 @@ URLs ending with common asset extensions:
 ## Supported File Types
 
 The extension activates for these file types:
+
 - JavaScript / TypeScript (`.js`, `.ts`, `.jsx`, `.tsx`)
 - HTML / CSS / SCSS / LESS
 - JSON / YAML
@@ -53,10 +57,10 @@ The extension activates for these file types:
 
 ```typescript
 // This URL will be validated
-const logo = 'https://d1ioice0blp2od.cloudfront.net/fmtapp/asset/logo.png';
+const logo = "https://d1ioice0blp2od.cloudfront.net/fmtapp/asset/logo.png";
 
 // This will show a warning if the image doesn't exist
-const brokenImage = 'https://example.com/missing-image.jpg';
+const brokenImage = "https://example.com/missing-image.jpg";
 ```
 
 ## Installation
@@ -94,4 +98,18 @@ npm run watch
 
 ## License
 
-MIT
+Apache-2.0
+
+Copyright 2026 Omnia Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
